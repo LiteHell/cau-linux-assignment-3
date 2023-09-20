@@ -1,3 +1,4 @@
+#!/bin/sh
 if [[ ! $1 =~ ^[0-9]+$ ]] || [[ ! $2 =~ ^[0-9]+$ ]] || [ $1 -le 0 ] || [ $2 -le 0 ]; then
 	echo "Invalid input"
 	exit 1
